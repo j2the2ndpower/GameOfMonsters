@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Game of Monsters</title>
+    <link rel="stylesheet" type="text/css" href="css/game.css">
+    
+	<script type="text/javascript" src="js/player.js"></script>
+	<script type="text/javascript" src="js/navigation.js"></script>
+	<script type="text/javascript" src="js/room.js"></script>
+	<script type="text/javascript" src="js/game.js"></script>
+  </head>
+  <body>
+    <div>
+    	<div id="main">
+    		<div id="location">
+				<span class="header">Forest</span>
+				<div class="headerUnderline"></div>
+				<p id="maintext"> You have entered shadows upon shadows of very tall trees with a path leading north, east, west or south. As the list goes on and on and you find yourself all kinds of confused, the stupidity slaps your smugged look off your face as you realized how lost and hopeless you've become. You wondered too far into the forest and the chances of you leaving with your life has become one of a thousand. I shall keep rambling on and on for a precise measurement in order to determine the length of which I may jott down in the size of this toolish device. </p>
+				<div class="footer"></div>
+    		</div>
+    	</div>
+	  	<div class="colmask">
+			<div class="colmid">
+				<div class="colleft">
+					<div id="status"  class="col1">
+						<div>
+						    <span id="characterName" class="characterName">Vincent</span> <br />
+						    <span id="characterInfo"> Lvl 9000 Warrior </span> <br />
+							<div class="progressContainer">
+						    	<progress id="xpBar" value="48" max="100"></progress>
+						    	<div id="xpText" class="percentText">48%</div>
+						    </div>
+						    <div class="progressContainer">
+						    	<progress id="hpBar" value="100" max="100"></progress>
+						    	<div id="hpText" class="percentText">100%</div>
+						    </div>
+						</div>
+					</div>
+					<div id="actions" class="col2">
+						<button id="Attack">Attack</button><br/>
+						<button id="Flee">Flee</button>
+					</div>
+				    <div id="navigation" class="col3">
+				        <div class="MapNavBox"> 
+				          <button id="North" style="left:125px; top:20px">  N </button>
+				          <button id="West"  style="left:65px; top:80px">   W </button>
+				          <button id="Map"   style="left:125px; top:80px">  O </button>
+				          <button id="East"  style="left:185px; top:80px">  E </button>
+				          <button id="South" style="left:125px; top:140px"> S </button>
+				        </div>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  </body>
+</html>

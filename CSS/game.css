@@ -1,0 +1,195 @@
+/* General Layout */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	color: white;
+	background-color: black;
+}
+
+div#actions {
+	float: left;
+	position: relative;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+div#status {
+	float: left;
+	position: relative;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+div#navigation {
+	float: left;
+	position: relative;
+	padding: 10px 0 0 0;
+	overflow: hidden;
+	height: 100%;
+}
+
+div#main {
+	clear:both;
+	float:left;
+	width:100%;
+	height: 80%;
+
+	border-bottom: 1px solid white;
+	margin-bottom: -1px;
+}
+
+div.col1 {
+	width:46%;
+	left:102%;
+}
+
+div.col2 {
+	width:21%;
+	left:31%;
+}
+
+div.col3 {
+	width:21%;
+	left:85%;
+}
+
+div.colmid,
+div.colleft {
+	float:left;
+	width:100%;
+	position:relative;
+	border-right: 1px solid white;
+}
+
+div.colmask {
+	position:relative;
+	clear:both;
+	float:left;
+	width:100%;
+	overflow:hidden;
+	height: 20%;
+}
+
+div.colmask div.colmid {
+	right:25%;
+}
+
+div.colmask div.colleft {
+	right:50%;
+}
+
+
+/* Location */
+div#location {
+	padding: 10px;
+}
+
+div#location span.header {
+	font-family: Impact;
+	font-size:48pt;
+}
+
+div#location p#maintext{
+	font-family: sans-serif;
+	font-size: 14pt;
+	padding: 4px;
+}
+
+div#location div.headerUnderline {
+	border-bottom: 10px double white;
+	top: -21px;
+	position: relative;
+}
+
+div#location div.footer {
+	position: relative;
+	top: 21px;
+	border-bottom:10px dotted white;
+}
+
+
+/* Navigation */
+
+.MapNavBox 
+{
+  float: right;
+  width: 290px;
+  height: 200px;
+  top: -10px;
+  left: 10px;
+  position:relative;
+}
+
+ .MapNavBox button
+ {  
+    position:absolute;
+    background-color: gray;
+    color: white;
+    width:50px;
+    height:50px;
+    border: 2px solid white; 
+}
+
+ #Map
+{
+  background-color: green;
+  width:50px;
+  height:50px;
+}
+
+/* Status */
+
+div.progressContainer {
+	position: relative;
+}
+
+div.percentText {
+	position: absolute;
+	top: 0px;
+	left: 68px;
+	color: white;
+}
+
+progress {
+    background-color: lightblue;
+    margin: 3px;
+}
+
+progress#xpBar[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+progress#hpBar[value]::-webkit-progress-bar {
+  background-color: #600;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress#hpBar[value]::-webkit-progress-value {
+  background-color: #f00;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+span.characterName {
+   font-size: 22pt;
+}
+
+span#characterInfo {
+   position: relative;
+   left: 4px;
+}
