@@ -8,4 +8,6 @@ window.onload = function() {
 	GOM.player.update();
 
     GOM.navigation = new Navigation();
+    GOM.map = new gameMap();
+    
 }
