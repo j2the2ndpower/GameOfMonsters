@@ -64,7 +64,7 @@
 				"name": "Destroyed Forest",
 				"desc": "Looks like a war happend here or something"	
 			},  {
-				"name": "Swamp"
+				"name": "Swamp",
 				"desc": "It's just a Swamp expect me to say something funny?"
 			}]
 		},
@@ -139,6 +139,6 @@
 			}]
 		}]
 	}, {
-		"name": "Desert",
+		"name": "Desert"
 	}]
 }

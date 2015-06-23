@@ -8,6 +8,7 @@ window.onload = function() {
 	GOM.player.update();
 
     GOM.navigation = new Navigation();
+    GOM.map = new gameMap();
 
     var room = new Room({
         name: "Forest",
