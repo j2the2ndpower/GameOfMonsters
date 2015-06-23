@@ -1,0 +1,41 @@
+{
+	"biomes": [{
+		"name": "Forest",
+		"rooms": {
+			"rare": [{
+				"name": "Ewok Village",
+				"desc": "You discovered an ewok village, look around for goodies!"
+			}],
+			"common": [{
+				"name": "Forest Path",
+				"desc": "You're walking along a forest path... again..."
+			}, {
+				"name": "Forest Tree Tops",
+				"desc": "You're walking along the top of the trees.. Wait.. How did you get up here?"
+			}]
+		},
+		"monsters": [{
+			"divine": [{
+				"name": "Green-Eyes Ornate Dragon"
+			}, {
+				"name": "Master Ewok"
+			}, {
+				"name": "Master Ewok"
+			}],
+			"legendary": [{
+				"name": "Mom"
+			}],
+			"epic": [{
+
+			}],
+			"rare": [{
+
+			}],
+			"common": [{
+
+			}]
+		}]
+	}, {
+		"name": "Desert",
+	}]
+}
