@@ -93,7 +93,7 @@ div#location span.header {
 	font-size:48pt;
 }
 
-div#location p#maintext{
+div#location p#roomDesc{
 	font-family: sans-serif;
 	font-size: 14pt;
 	padding: 4px;
@@ -192,4 +192,21 @@ span.characterName {
 span#characterInfo {
    position: relative;
    left: 4px;
+}
+
+div#directions {
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+span#dirNames {
+    color: lawngreen;
+}
+
+div#monsters {
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: 14pt;
+    color: red;
 }
