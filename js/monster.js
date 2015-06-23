@@ -1,12 +1,12 @@
-window.Monster = window.Monster || function(name, level, rarity) {
-	this.name = name;
+window.Monster = window.Monster || function(config) {
+	this.name = config.name || "Unknown";
 	this.maxhp = 100;
 	this.hp = 100;
-    this.rarity = rarity || "common";
-    this.setLevel(level);
+    this.rarity = config.rarity || "common";
+    this.setLevel(config.level || 1);
 };
 
-Monster.setLevel = function(level) {
+Monster.prototype.setLevel = function(level) {
     var rarehp = {
         "common": 0,
         "rare": 10,
