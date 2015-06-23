@@ -41,3 +41,20 @@ Player.prototype.gainLevel = function () {
 	this.hp = this.maxhp;
 
 };
+
+Player.prototype.setRoom = function(room) {
+    if (room instanceof Room) {
+        document.getElementById("roomName").innerHTML = room.name;
+        document.getElementById("roomDesc").innerHTML = room.desc;
+
+        var monsterDesc = "";
+        room.getMonsters().forEach(function(monster) {
+            monsterDesc += "A " + monster.name + " [Level " + monster.level + "] is here.<br />";
+        });
+
+        document.getElementById("monsters").innerHTML = monsterDesc;
+        document.getElementById("dirNames").innerHTML = room.getDirections().join(',');
+    } else {
+        throw("Argument is not a room.");
+    }
+};
