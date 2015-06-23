@@ -5,6 +5,18 @@
 			"rare": [{
 				"name": "Ewok Village",
 				"desc": "You discovered an ewok village, look around for goodies!"
+				},  {
+				"name": "Treasure Tree",
+				"desc": "The tree's leaves are gold coins!"
+				},  {
+				"name": "Weird Looking Tree",
+				"desc": "Wait, Is that a dragon?"
+				},  {
+				"name": "Epic Rainbow Neon Tree",
+				"desc": "So collorfull."
+				},  {
+				"name": "Invisable Forrest",
+				"desc": "Good Job finding this it's hard to find! It's invisable"
 			}],
 			"common": [{
 				"name": "Forest Path",
@@ -12,6 +24,48 @@
 			}, {
 				"name": "Forest Tree Tops",
 				"desc": "You're walking along the top of the trees.. Wait.. How did you get up here?"
+		    },  {
+				"name": "Tree Filled Area",
+				"desc": "There Are Lots of Trees And Even more Baddies!"
+			},  {
+				"name": "Giant Bird Nest",
+				"desc": "What kind of bird would need a nest THIS big!?!?"
+			},  {
+				"name": "Almost Empty Area",
+				"desc": "just a few trees that's it, oh yeah and there's a monster behind you."
+			},  {
+				"name": "World's Tallest Tree ",
+				"desc": "it's so tall the clouds are at about the half way point."
+			},  {
+				"name": "Blue Tree",
+				"desc": "Why is it blue!?!?!?"
+			},  {
+				"name": "Suspicious Looking Tree",
+				"desc": "Your Pretty Sure There's something hidden here."
+			},  {
+				"name": "World's Largest Tree's Roots",
+				"desc": "The roots are huge too! They will also work as an intant kill spike."
+			},  {
+				"name": "Tiny Tree",
+				"desc": "Be carefull! You might break it by stepping on it."
+			},  {
+				"name": "Forest",
+				"desc": "Nothing special here."
+			},  {
+				"name": "Cobwebby forest",
+				"desc": "I hope your not afraid of spiders"
+			},  {
+				"name": "Moving Trees",
+				"desc": "There are four trees your pretty sure are moving either that or your crazy."
+			},  {
+				"name": "Dark Forest",
+				"desc": "It's night here but not anywhere else."
+			},  {
+				"name": "Destroyed Forest",
+				"desc": "Looks like a war happend here or something"	
+			},  {
+				"name": "Swamp"
+				"desc": "It's just a Swamp expect me to say something funny?"
 			}]
 		},
 		"monsters": [{
@@ -20,18 +74,67 @@
 			}, {
 				"name": "Master Ewok"
 			}, {
-				"name": "Master Ewok"
+				"name": "Giant Living Tree"
 			}],
 			"legendary": [{
-				"name": "Mom"
+				"name": "Big Big Big Spider"
+				}, {
+				"name": "Troll Goblin"
+				}, {
+				"name": "King Knoblin"
+				}, {
+				"name": "Forest Keeper"
+				}, {
+				"name": "Lead Forest Angel"
+				
 			}],
 			"epic": [{
-				"name": "Dad"
+				}, {
+				"name": "Big Spider"
+				}, {
+				"name": "Crocidile Feaster"
+				}, {
+				"name": "Baby Dragon"
+				}, {
+				"name": "Berry Collector"
+				}, {
+				"name": "Battle Sheep"
+
 			}],
 			"rare": [{
+				}, {
+				"name": "Poisinous Spider"
+				}, {
+				"name": "Forest Elf"
+				}, {
+				"name": "Mushroom Monster"
+				}, {
+				"name": "Evil Bannana"
+				}, {
+				"name": "Angered Axeman"
 
 			}],
 			"common": [{
+				}, {
+				"name": "Forest Angel"
+				}, {
+				"name": "knoblin"
+				}, {
+				"name": "Spider"
+				}, {
+				"name": "Living Tree"
+				}, {
+				"name": "Dancing Shrub"
+				}, {
+				"name": "Skeleton"
+				}, {
+				"name": "Lots Of Mini Spiders"
+				}, {
+				"name": "Orc"
+				}, {
+				"name": "Snake"
+				}, {
+				"name": "Angry Boar"
 
 			}]
 		}]
